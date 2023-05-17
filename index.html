@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin Etch-a-Sketch</title>
+</head>
+<body>
+    <div id="title">
+        <h1>Odin Project Etch-a-sketch</h1>
+    </div>
+    <div class="controls">
+        <button id="resetButton" onclick="resetGrid()">Reset Grid</button>
+        <input type="text" value="" name="inputResolution" placeholder="pixels per side" id="userChoice">
+        <button id="enterButton">Enter</button>
+    </div>
+    <div class="status">
+        <h3 class="resolution">Current resolution: 0 x 0 pixels</h3>
+    </div>
+    <div id="viewport">
+            <div id="container"><h4 style="margin-top:20px;">Please enter a number of pixels between 1 and 100</h4></div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
